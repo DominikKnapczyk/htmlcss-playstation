@@ -57,3 +57,18 @@ section {
 .first-section .row div img {
   width: 300px;
 }
+
+.first-section .products img {
+  width: 120px;
+}
+
+.first-section .products div {
+  margin: 10px 0;
+  width: 150px;
+  cursor: pointer;
+}
+
+.first-section .products div:first-child {
+  border-bottom: 3px solid skyblue;
+}
+
