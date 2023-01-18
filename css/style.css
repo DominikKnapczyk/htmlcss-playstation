@@ -50,11 +50,10 @@ header nav i {
 
 /* ----------MAIN---------- */
 
-section {
-  max-width: 1500px;
-}
-
 /* FIRST SECTION */
+.first-section {
+  max-width: 1200px;
+}
 
 .first-section .row div img {
   width: 300px;
@@ -97,4 +96,25 @@ section {
   border-radius: 15px;
   padding: 2px;
   cursor: pointer;
+}
+
+/* THIRD SECTION */
+
+.third-section .row img{
+  width: 200px;
+}
+
+/* FOURTH SECTION */
+
+.fourth-section {
+  background-color: lightgrey;
+
+}
+
+.fourth-section .row .plus-logo{
+  width: 250px;
+}
+
+.fourth-section .row .plus-image{
+  width: 450px;
 }
