@@ -1,0 +1,14 @@
+/* HEADER */
+
+header .top-header {
+  height: 30px;
+  background-color: black;
+}
+
+header .top-header img {
+  width: 100px;
+}
+
+header nav i {
+  cursor: pointer;
+}
