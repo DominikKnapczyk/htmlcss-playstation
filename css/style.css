@@ -1,4 +1,8 @@
-/* HEADER */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ----------HEADER---------- */
 
 header .top-header {
   height: 30px;
@@ -11,4 +15,18 @@ header .top-header img {
 
 header nav i {
   cursor: pointer;
+}
+
+/* JUMBOTRON */
+
+.jumbotron .top-jumbotron {
+  background-image: url(../img/jumbo-bg.png);
+  height: 500px;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.jumbotron .top-jumbotron img {
+  width: 150px;
 }
