@@ -32,7 +32,7 @@ header nav i {
 }
 
 .jumbotron .bottom-jumbotron img{
-  height: 70px;
+  width: 100%;
   border-radius: 15px;
   padding: 2px;
   cursor: pointer;
@@ -42,11 +42,7 @@ header nav i {
   border: 2px solid skyblue;
 }
 
-@media screen and (min-device-width: 1200px) {
-  .jumbotron .bottom-jumbotron img{
-    height: 100px
-  }
-}
+
 
 /* ----------MAIN---------- */
 
@@ -56,11 +52,11 @@ header nav i {
 }
 
 .first-section .row div img {
-  width: 300px;
+  width: 100%;
 }
 
 .first-section .products img {
-  width: 120px;
+  width: 100%;
 }
 
 .first-section .products div {
@@ -92,7 +88,7 @@ header nav i {
 }
 
 .second-section .new-releases img{
-  height: 120px;
+  width: 100%;
   border-radius: 15px;
   padding: 2px;
   cursor: pointer;
@@ -101,33 +97,50 @@ header nav i {
 /* THIRD SECTION */
 
 .third-section .row img{
-  width: 200px;
+  width: 100%;
 }
 
 /* FOURTH SECTION */
 
 .fourth-section {
   background-color: lightgrey;
-
 }
 
 .fourth-section .row .plus-logo{
-  width: 250px;
+  width: 200px;
 }
 
-.fourth-section .row .plus-image{
-  width: 450px;
+.fourth-section .plus-image{
+  height: 100%;
+  background-image: url("../img/ps-plus-april-monthly-games-featured-image-block.png");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: contain; 
 }
 
 /* FIFTH SECTION */
 
 .fifth-section .discount-img{
-  width: 260px;
+  width: 100%;
   cursor: pointer;
 }
 
-@media screen and (min-device-width: 576px) and (max-device-width: 1200px) {
-  .fifth-section .discount-img{
-    width: 160px;
-  }
+
+/* SIXTH SECTION */
+
+.sixth-section {
+  background-color: #161c3b;
+  color: white;
+}
+
+.sixth-section .row .plus-logo{
+  width: 250px;
+}
+
+.sixth-section .now-image{
+  height: 100%;
+  background-image: url("../img/ps-now-april-featured-image-block.png");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: contain; 
 }
