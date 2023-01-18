@@ -118,3 +118,16 @@ header nav i {
 .fourth-section .row .plus-image{
   width: 450px;
 }
+
+/* FIFTH SECTION */
+
+.fifth-section .discount-img{
+  width: 260px;
+  cursor: pointer;
+}
+
+@media screen and (min-device-width: 576px) and (max-device-width: 1200px) {
+  .fifth-section .discount-img{
+    width: 160px;
+  }
+}
