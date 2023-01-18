@@ -54,6 +54,8 @@ section {
   max-width: 1500px;
 }
 
+/* FIRST SECTION */
+
 .first-section .row div img {
   width: 300px;
 }
@@ -72,3 +74,27 @@ section {
   border-bottom: 3px solid skyblue;
 }
 
+/* SECOND SECTION */
+
+.second-section .it-takes {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: top center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.second-section .it-takes img{
+  width: 250px;
+}
+
+.second-section .new-releases {
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.second-section .new-releases img{
+  height: 120px;
+  border-radius: 15px;
+  padding: 2px;
+  cursor: pointer;
+}
