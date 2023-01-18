@@ -30,3 +30,20 @@ header nav i {
 .jumbotron .top-jumbotron img {
   width: 150px;
 }
+
+.jumbotron .bottom-jumbotron img{
+  height: 70px;
+  border-radius: 15px;
+  padding: 2px;
+}
+
+.jumbotron .bottom-jumbotron .row div:first-child img{
+  border: 2px solid skyblue;
+}
+
+@media screen 
+  and (min-device-width: 1200px) {
+    .jumbotron .bottom-jumbotron img{
+      height: 100px
+    }
+  }
