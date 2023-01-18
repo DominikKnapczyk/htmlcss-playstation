@@ -22,7 +22,7 @@ header nav i {
 .jumbotron .top-jumbotron {
   background-image: url(../img/jumbo-bg.png);
   height: 500px;
-  background-position: center; 
+  background-position: top center; 
   background-repeat: no-repeat;
   background-size: cover; 
 }
@@ -35,15 +35,25 @@ header nav i {
   height: 70px;
   border-radius: 15px;
   padding: 2px;
+  cursor: pointer;
 }
 
 .jumbotron .bottom-jumbotron .row div:first-child img{
   border: 2px solid skyblue;
 }
 
-@media screen 
-  and (min-device-width: 1200px) {
-    .jumbotron .bottom-jumbotron img{
-      height: 100px
-    }
+@media screen and (min-device-width: 1200px) {
+  .jumbotron .bottom-jumbotron img{
+    height: 100px
   }
+}
+
+/* ----------MAIN---------- */
+
+section {
+  max-width: 1500px;
+}
+
+.first-section .row div img {
+  width: 300px;
+}
